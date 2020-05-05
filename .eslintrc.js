@@ -18,6 +18,7 @@ module.exports = {
   plugins: [
   ],
   rules: {
+    'no-unused-vars': 0,
     'no-unused-expressions': 0,
     'comma-dangle': ['warn', 'always-multiline'],
   }
