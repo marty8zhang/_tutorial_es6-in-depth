@@ -2,15 +2,24 @@
   "name": "tutorial_es6-in-depth",
   "version": "1.0.0",
   "description": "",
-  "scripts": {},
   "author": "Marty Zhang <marty8zhang@gmail.com>",
   "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build-demo-script": "webpack --config ./babel-and-webpack/demo-script/webpack.config.js",
+    "build-demo-webpage": "webpack --config ./babel-and-webpack/demo-webpage/webpack.config.js"
+  },
   "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1"
+    "eslint-plugin-standard": "^4.0.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
   }
 }
