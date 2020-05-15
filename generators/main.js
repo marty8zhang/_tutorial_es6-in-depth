@@ -44,7 +44,8 @@ class IterableClass {
     for (const prop in this) {
       if (
         Object.prototype.hasOwnProperty.call(this, prop)
-          /* Methods defined in the class definition belongs to `IterableClass.prototype`. JavaScript sets the
+          /*
+           * Methods defined in the class definition belongs to `IterableClass.prototype`. JavaScript sets the
            * `enumerable` flag to `false` for all methods in `prototype`. Hence, such methods won't be shown in
            * `for...in` by default.
            * What we're excluding out here are the methods defined after an object has been initialised. E.g., the

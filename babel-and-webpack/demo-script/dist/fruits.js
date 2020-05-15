@@ -94,7 +94,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nconst fruits = [{\n  id: 100,\n  name: 'strawberry'\n}, {\n  id: 101,\n  name: 'grapefruit'\n}, {\n  id: 102,\n  name: 'plum'\n}];\n\nfor (const fruit of fruits) {\n  const message = `ID: ${fruit.id} Name: ${fruit.name}`;\n  console.log(message);\n}\n\nconsole.log(`List total: ${fruits.length}`);\n\n//# sourceURL=webpack:///./babel-and-webpack/demo-script/fruits.js?");
+eval("\n\nvar fruits = [{\n  id: 100,\n  name: 'strawberry'\n}, {\n  id: 101,\n  name: 'grapefruit'\n}, {\n  id: 102,\n  name: 'plum'\n}];\n\nfor (var _i = 0, _fruits = fruits; _i < _fruits.length; _i++) {\n  var fruit = _fruits[_i];\n  var message = \"ID: \".concat(fruit.id, \" Name: \").concat(fruit.name);\n  console.log(message);\n}\n\nconsole.log(\"List total: \".concat(fruits.length));\n\n//# sourceURL=webpack:///./babel-and-webpack/demo-script/fruits.js?");
 
 /***/ })
 
