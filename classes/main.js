@@ -44,14 +44,14 @@ const testCircle = new Circle(2) // Instantiating a `2` radius circle.
 
 Circle.draw(testCircle, { id: 'test-canvas' }) // Drawing a `2` radius circle on the `test-canvas` canvas.
 
-console.log(Circle.circlesMade) // 1
+console.log(Circle.circlesMade) // 1.
 
 console.log(testCircle.area()) // 12.566...
 
 testCircle.radius = 1.23
 
-console.log(testCircle.radius) // 1.23
+console.log(testCircle.radius) // 1.23.
 
 Circle.draw(new Circle(2.13), { id: 'test-canvas-2' })
 
-console.log(Circle.circlesMade) // 2
+console.log(Circle.circlesMade) // 2.
