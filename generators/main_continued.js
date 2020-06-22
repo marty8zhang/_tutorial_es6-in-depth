@@ -71,7 +71,7 @@ testGenerator.return({})
 console.log(testGenerator.next())
 
 // `Generator.next()` takes an optional parameter.
-// The value of the parameter will be treated as the result of the current `yield`.
+// The value of the parameter will be treated as the result of the previous `yield`.
 testingTextFormatter.logTestingStart()
 function * getAdvancedGenerator () {
   const [username, password] = yield 'Connecting...Please provide [username,password].'
